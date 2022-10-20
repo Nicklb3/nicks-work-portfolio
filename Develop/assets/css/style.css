@@ -1,8 +1,34 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
+:root {
+    --border: 0.2rem solid #370606a6;
+}
+
+.header {
     display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;  
+}
+
+li {
+    margin: 0.2rem;
+    border-bottom: 0.2rem solid #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border: var(--border);
 }
