@@ -8,7 +8,7 @@
     --border: 0.2rem solid #690608;
     --padding: 2rem;
     --heading-padding: 0.2rem 0.6rem;
-    --prime-text-color: #021b32;
+    --prime-text-color: #043664;
 }
 
 body {
@@ -35,6 +35,7 @@ h1, h2, h3 {
 
 h3 {
     font-size: 2rem;
+    color: var(--prime-text-color);
 }
 
 ul {
@@ -63,16 +64,26 @@ a:active {
     padding: 2.5rem;
 }
 
+.main-section_article-2 {
+    display: flex;
+    margin-top: 2rem;
+}
+
 .heading2 {
     display: flex;
     justify-content: end;
 }
 
-.main-section_article-3 {
-    display: flex;
+p {
+    line-height: 1.7;
 }
 
-.main-section_articl3--cards {
+.main-section_article-3 {
+    display: flex;
+    padding: var(--padding);
+}
+
+.main-section_article-3--cards {
     display: flex;
     flex-wrap: wrap;
 }
