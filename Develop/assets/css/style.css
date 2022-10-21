@@ -8,7 +8,7 @@
     --border: 0.2rem solid #690608;
     --padding: 2rem;
     --heading-padding: 0.2rem 0.6rem;
-    --prime-text-color: #073763;
+    --prime-text-color: #021b32;
 }
 
 body {
@@ -29,8 +29,12 @@ h1 {
     color: var(--prime-text-color);
 }
 
-h1, h2 {
+h1, h2, h3 {
     padding: var(--heading-padding);
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 ul {
@@ -51,7 +55,7 @@ a {
 
 a:hover,
 a:active {
-    color: #000000;
+    color: #690608;
 }
 
 .main-section_article-1 {
@@ -66,6 +70,10 @@ a:active {
 
 .main-section_article-3 {
     display: flex;
+}
+
+.main-section_articl3--cards {
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -74,6 +82,11 @@ a:active {
     width: 30rem;
     height: 10rem;
     margin: 1rem;
+}
+
+.card:first-child {
+    width: 60rem;
+    height: 20rem;
 }
 
 .footer {
