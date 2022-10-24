@@ -83,7 +83,7 @@ p {
 
 .main-section_article-3 {
     display: flex;
-    padding: var(--padding);
+    /* padding: var(--padding); */
 }
 
 .main-section_article-3--cards {
@@ -134,7 +134,7 @@ img {
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 650px) {
     .header {
         justify-content: center;
         flex-direction: column;
@@ -146,7 +146,7 @@ img {
         flex-direction: column;
     }
 
-    .main-section_article-2, .main-section_article-3 {
+    .main-section_article-2, .main-section_article-3, .footer {
         flex-direction: column;
         justify-content: center;
         padding: 0.2rem;
