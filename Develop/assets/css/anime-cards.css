@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    color: azure;
+  }
+  
+  main.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  
+  section.characters {
+    width: 300px;
+    margin: 5px;
+  }
+  
+  img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .itachi {
+    background-image: linear-gradient(135deg, red 15%, black 100%);
+    align-content: center;
+  }
+  
+  .ahsoka {
+    background-image: linear-gradient(135deg, #575454 15%, black 100%);
+  }
+  
+  .vegeta {
+    background-image: linear-gradient(135deg, blue 15%, black 100%);
+  }
+  
+  .sasuke {
+    background-image: linear-gradient(135deg, purple 15%, black 100%);
+  }
+  
