@@ -93,6 +93,11 @@ p {
     padding: 1rem;
 }
 
+:hover {
+    background: #c9161682;
+    z-index: 1;
+}
+
 img {
     width: 35rem;
     height: 20rem;
